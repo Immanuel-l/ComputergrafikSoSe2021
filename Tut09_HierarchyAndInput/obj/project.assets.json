@@ -5467,11 +5467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut09_HierarchyAndInput\\Tut09_HierarchyAndInput.csproj",
+      "projectUniqueName": "D:\\Furtwangen\\2.Semester\\Computergrafik\\ComputergrafikSoSe2021\\Tut09_HierarchyAndInput\\Tut09_HierarchyAndInput.csproj",
       "projectName": "Tut09_HierarchyAndInput",
-      "projectPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut09_HierarchyAndInput\\Tut09_HierarchyAndInput.csproj",
+      "projectPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\ComputergrafikSoSe2021\\Tut09_HierarchyAndInput\\Tut09_HierarchyAndInput.csproj",
       "packagesPath": "C:\\Users\\leine\\.nuget\\packages\\",
-      "outputPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut09_HierarchyAndInput\\obj\\",
+      "outputPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\ComputergrafikSoSe2021\\Tut09_HierarchyAndInput\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leine\\AppData\\Roaming\\NuGet\\NuGet.Config"
