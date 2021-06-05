@@ -1,0 +1,9 @@
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\bin\Debug\Tut09_HierarchyAndInput.deps.json
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\bin\Debug\Tut09_HierarchyAndInput.dll
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\bin\Debug\Tut09_HierarchyAndInput.pdb
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.csprojAssemblyReference.cache
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.AssemblyInfoInputs.cache
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.AssemblyInfo.cs
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.csproj.CoreCompileInputs.cache
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.dll
+D:\Furtwangen\2.Semester\Computergrafik\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.pdb
