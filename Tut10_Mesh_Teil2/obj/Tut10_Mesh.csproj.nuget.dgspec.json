@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut10_Mesh_Teil2\\Tut10_Mesh.csproj": {}
+  },
+  "projects": {
+    "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut10_Mesh_Teil2\\Tut10_Mesh.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut10_Mesh_Teil2\\Tut10_Mesh.csproj",
+        "projectName": "Tut10_Mesh",
+        "projectPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut10_Mesh_Teil2\\Tut10_Mesh.csproj",
+        "packagesPath": "C:\\Users\\leine\\.nuget\\packages\\",
+        "outputPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut10_Mesh_Teil2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leine\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Fusee.Desktop": {
+              "target": "Package",
+              "version": "[0.10.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
