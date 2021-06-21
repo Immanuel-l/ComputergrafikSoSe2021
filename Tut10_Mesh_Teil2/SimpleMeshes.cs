@@ -143,36 +143,36 @@ namespace FuseeApp
             float delta = 2* M.Pi / segments;
 
             verts[segments*4] = new float3(0, 0.5f * height, 0);
-            norms[segments*4] = float3.UnitY;
+            norms[segments*4] = new float3(0, 0.5f*height+1 ,0);
 
             verts[segments*4+1] = new float3(0, -0.5f * height, 0);
-            norms[segments*4+1] = float3.UnitY;
+            norms[segments*4+1] = new float3(0, -0.5f*height-1 ,0);
 
             verts[0] = new float3(radius, 0.5f * height, 0);
-            norms[0] = float3.UnitY;
+            norms[0] = new float3(9,0,radius);
 
-            verts[1] = new float3(radius, -0.5f * height, 0);
-            norms[1] = float3.UnitY;
+            verts[1] = new float3(radius, 0.5f * height, 0);
+            norms[1] = new float3(radius,0,0);
 
             verts[2] = new float3(radius, -0.5f * height, 0);
-            norms[2] = float3.UnitY;
+            norms[2] = new float3(radius,0,0);
 
             verts[3] = new float3(radius, -0.5f * height, 0);
-            norms[3] = float3.UnitY;
+            norms[3] = new float3(0,0,-radius);
 
 
             for (int i = 1; i < segments; i++) {
                 verts[4*i] = new float3(radius * M.Cos(i * delta), 0.5f * height, radius * M.Sin(i * delta));
-                norms[4*i] = float3.UnitY;
+                norms[i*4] = new float3(M.Cos(delta * i), 0, M.Sin(delta * i));
 
                 verts[4*i+1] = new float3(radius * M.Cos(i * delta), 0.5f * height, radius * M.Sin(i * delta));
-                norms[4*i+1] = float3.UnitY;
+                norms[4*i+1] = new float3(M.Cos(delta * i), 0, M.Sin(delta * i));
 
                 verts[4*i+2] = new float3(radius * M.Cos(i * delta), -0.5f * height, radius * M.Sin(i * delta));
-                norms[4*i+2] = float3.UnitY;
+                norms[4*i+2] = new float3(M.Cos(delta * i), 0, M.Sin(delta * i));
 
-                verts[4*i+3] = new float3(radius * M.Cos(i * delta), 0.5f * height, radius * M.Sin(i * delta));
-                norms[4*i+3] = float3.UnitY;
+                verts[4*i+3] = new float3(radius * M.Cos(i * delta), -0.5f * height, radius * M.Sin(i * delta));
+                norms[4*i+3] = new float3(M.Cos(delta * i), 0, M.Sin(delta * i));
 
                 // tris[3*i - 1] = (ushort) segments;
                 // tris[3*i - 2] = (ushort) i;
@@ -180,8 +180,8 @@ namespace FuseeApp
 
                 // top triangle
                 tris[12*(i-1) + 0] = (ushort) (4*segments);       // top center point
-                tris[12*(i-1) + 1] = (ushort) (4*i + 0);          // current top segment point
-                tris[12*(i-1) + 2] = (ushort) (4*(i-1) + 0);      // previous top segment point
+                tris[12*(i-1) + 1] = (ushort) (4*(i-1)+0);          // current top segment point
+                tris[12*(i-1) + 2] = (ushort) (4*i+1);      // previous top segment point
 
                 // side triangle 1
                 tris[12*(i-1) + 3] = (ushort) (4*(i-1) + 2);      // previous lower shell point
@@ -195,8 +195,8 @@ namespace FuseeApp
 
                 // bottom triangle
                 tris[12*(i-1) + 9]  = (ushort) (4*segments+1);    // bottom center point
-                tris[12*(i-1) + 10] = (ushort) (4*(i-1) + 3);     // current bottom segment point
-                tris[12*(i-1) + 11] = (ushort) (4*i + 3);         // previous bottom segment point
+                tris[12*(i-1) + 10] = (ushort) (4*i + 3);    // current bottom segment point
+                tris[12*(i-1) + 11] = (ushort) (4*(i-1) + 3);          // previous bottom segment point
 
             }
 
@@ -206,23 +206,23 @@ namespace FuseeApp
 
             // top triangle
             tris[12*(segments-1) + 0] = (ushort) (4*segments);                 // top center point
-            tris[12*(segments-1) + 1] = (ushort) (4*segments-1);                         // current top segment point
-            tris[12*(segments-1) + 2] = (ushort) (4*(segments-1) + 0);      // previous top segment point
+            tris[12*(segments -1)+1] = (ushort)(4*(segments-1));                         // current top segment point
+            tris[12*(segments-1) + 2] = (ushort) (0);                      // previous top segment point
 
             // side triangle 1
-            tris[12*(segments-1) + 3] = (ushort) (4*(segments-1) + 2);      // previous lower shell point
-            tris[12*(segments-1) + 4] = (ushort) 2;                         // current lower shell point
-            tris[12*(segments-1) + 5] = (ushort) 1;          // current top shell point
+            tris[12*(segments-1) + 3] = (ushort) (4*(segments-1)+2);      // previous lower shell point
+            tris[12*(segments-1) + 4] = (ushort) (2);                         // current lower shell point
+            tris[12*(segments-1) + 5] = (ushort) (1);          // current top shell point
 
              // side triangle 2
-            tris[12*(segments-1) + 6] = (ushort) (4*(segments-1) + 2);      // previous lower shell point
-            tris[12*(segments-1) + 7] = (ushort) 1;                            // current top shell point
-            tris[12*(segments-1) + 8] = (ushort) (4*(segments-1) + 1);      // previous top shell point
+            tris[12*(segments-1) + 6] = (ushort) (4*(segments-1)+2);      // previous lower shell point
+            tris[12*(segments-1) + 7] = (ushort) (1);                            // current top shell point
+            tris[12*(segments-1) + 8] = (ushort) (4*(segments-1)+1);      // previous top shell point
 
             // bottom triangle
             tris[12*(segments-1) + 9]  = (ushort) (4*segments+1);           // bottom center point
-            tris[12*(segments-1) + 10] = (ushort) (4*segments-1);                        // current bottom segment point
-            tris[12*(segments-1) + 11] = (ushort) 3;         // previous bottom segment point
+            tris[12*(segments-1) + 10] = (ushort) (3);                        // current bottom segment point
+            tris[12*(segments-1) + 11] = (ushort) (4*segments-1);       // previous bottom segment point
 
             return new Mesh {
                 Vertices = verts,

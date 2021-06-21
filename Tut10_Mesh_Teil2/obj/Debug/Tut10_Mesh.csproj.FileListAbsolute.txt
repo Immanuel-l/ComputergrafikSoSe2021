@@ -16,3 +16,12 @@ D:\Furtwangen\2.Semester\Computergrafik\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.As
 D:\Furtwangen\2.Semester\Computergrafik\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.csproj.CoreCompileInputs.cache
 D:\Furtwangen\2.Semester\Computergrafik\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.dll
 D:\Furtwangen\2.Semester\Computergrafik\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.pdb
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\bin\Debug\Tut10_Mesh.deps.json
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\bin\Debug\Tut10_Mesh.dll
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\bin\Debug\Tut10_Mesh.pdb
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.csprojAssemblyReference.cache
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.AssemblyInfoInputs.cache
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.AssemblyInfo.cs
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.csproj.CoreCompileInputs.cache
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.dll
+D:\Furtwangen\2.Semester\Computergrafik\ComputergrafikSoSe2021\Tut10_Mesh_Teil2\obj\Debug\Tut10_Mesh.pdb

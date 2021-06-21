@@ -5467,11 +5467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut10_Mesh_Teil2\\Tut10_Mesh.csproj",
+      "projectUniqueName": "D:\\Furtwangen\\2.Semester\\Computergrafik\\ComputergrafikSoSe2021\\Tut10_Mesh_Teil2\\Tut10_Mesh.csproj",
       "projectName": "Tut10_Mesh",
-      "projectPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut10_Mesh_Teil2\\Tut10_Mesh.csproj",
+      "projectPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\ComputergrafikSoSe2021\\Tut10_Mesh_Teil2\\Tut10_Mesh.csproj",
       "packagesPath": "C:\\Users\\leine\\.nuget\\packages\\",
-      "outputPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\Tut10_Mesh_Teil2\\obj\\",
+      "outputPath": "D:\\Furtwangen\\2.Semester\\Computergrafik\\ComputergrafikSoSe2021\\Tut10_Mesh_Teil2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leine\\AppData\\Roaming\\NuGet\\NuGet.Config"
