@@ -1,0 +1,12 @@
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\bin\Debug\Assets\Auto.fus
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\bin\Debug\Assets\CubeCar.fus
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\bin\Debug\Assets\MarsRover.fus
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\bin\Debug\Tut11_AssetsPicking.deps.json
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\bin\Debug\Tut11_AssetsPicking.dll
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\bin\Debug\Tut11_AssetsPicking.pdb
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\obj\Debug\Tut11_AssetsPicking.csprojAssemblyReference.cache
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\obj\Debug\Tut11_AssetsPicking.AssemblyInfoInputs.cache
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\obj\Debug\Tut11_AssetsPicking.AssemblyInfo.cs
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\obj\Debug\Tut11_AssetsPicking.csproj.CoreCompileInputs.cache
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\obj\Debug\Tut11_AssetsPicking.dll
+D:\Furtwangen\2.Semester\Computergrafik\Tut11_AssetsPicking\obj\Debug\Tut11_AssetsPicking.pdb
